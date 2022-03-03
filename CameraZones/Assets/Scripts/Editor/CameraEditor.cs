@@ -18,7 +18,7 @@ public class CameraEditor : Editor
             GameObject newZone = zone.CreateZone();
             if (zone.zones.Count > 1)
             {
-                Vector2 newPos = new Vector2(lastZone.transform.position.x + lastZone.col.bounds.size.x, lastZone.transform.position.y);
+                Vector2 newPos = new Vector2(lastZone.col.bounds.max.x + newZone.transform.localScale.x/2f, lastZone.transform.position.y);
                 newZone.transform.position = newPos;
             }
             Selection.activeGameObject = newZone; //Select the new Zone in hierarchy

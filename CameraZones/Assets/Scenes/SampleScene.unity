@@ -291,7 +291,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &578845094
@@ -363,9 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6b36710453d4a42b57e0cae62cf061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zones:
-  - {fileID: 0}
-  - {fileID: 0}
+  zones: []
   defaultSize: {x: 40, y: 22.5}
   defaultCamSize: 11.25
   playerLayer:
